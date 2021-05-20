@@ -37,6 +37,8 @@ dependencies {
     testCompile('org.springframework.boot:spring-boot-starter-test')
     compile('org.projectlombok:lombok')
     compile('org.springframework.boot:spring-boot-starter-mustache')
+    compile('org.springframework.boot:spring-boot-starter-security')
+    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
 
     testCompile('org.projectlombok:lombok')
     annotationProcessor('org.projectlombok:lombok')

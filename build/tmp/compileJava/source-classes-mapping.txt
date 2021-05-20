@@ -1,18 +1,39 @@
+com/example/academy/springboot/config/oauth/LoginUserArgumentResolver.java
+ com.example.academy.springboot.config.oauth.LoginUserArgumentResolver
 com/example/academy/springboot/web/dto/PostsListResponseDto.java
  com.example.academy.springboot.web.dto.PostsListResponseDto
+com/example/academy/springboot/config/oauth/CustomOAuth2UserService.java
+ com.example.academy.springboot.config.oauth.CustomOAuth2UserService
 com/example/academy/springboot/service/PostService.java
  com.example.academy.springboot.service.PostService
 com/example/academy/springboot/web/PostsApiController.java
  com.example.academy.springboot.web.PostsApiController
 com/example/academy/springboot/domain/posts/BaseTimeEntity.java
  com.example.academy.springboot.domain.posts.BaseTimeEntity
-com/example/academy/springboot/web/dto/PostsSaveRequestDto.java
- com.example.academy.springboot.web.dto.PostsSaveRequestDto
- com.example.academy.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/example/academy/springboot/config/oauth/dto/OAuthAttributes.java
+ com.example.academy.springboot.config.oauth.dto.OAuthAttributes
+ com.example.academy.springboot.config.oauth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/example/academy/springboot/config/WebConfig.java
+ com.example.academy.springboot.config.WebConfig
+com/example/academy/springboot/web/dto/IndexController.java
+ com.example.academy.springboot.web.dto.IndexController
 com/example/academy/springboot/web/HelloController.java
  com.example.academy.springboot.web.HelloController
+com/example/academy/springboot/config/oauth/LoginUser.java
+ com.example.academy.springboot.config.oauth.LoginUser
+com/example/academy/springboot/domain/user/Role.java
+ com.example.academy.springboot.domain.user.Role
 com/example/academy/springboot/Application.java
  com.example.academy.springboot.Application
+com/example/academy/springboot/domain/user/User.java
+ com.example.academy.springboot.domain.user.User
+ com.example.academy.springboot.domain.user.User$UserBuilder
+com/example/academy/springboot/config/oauth/SecurityConfig.java
+ com.example.academy.springboot.config.oauth.SecurityConfig
+com/example/academy/springboot/domain/user/UserRepository.java
+ com.example.academy.springboot.domain.user.UserRepository
+com/example/academy/springboot/config/oauth/dto/SessionUser.java
+ com.example.academy.springboot.config.oauth.dto.SessionUser
 com/example/academy/springboot/domain/posts/Posts.java
  com.example.academy.springboot.domain.posts.Posts
  com.example.academy.springboot.domain.posts.Posts$PostsBuilder
@@ -25,5 +46,6 @@ com/example/academy/springboot/web/dto/PostUpdateRequestDto.java
  com.example.academy.springboot.web.dto.PostUpdateRequestDto$PostUpdateRequestDtoBuilder
 com/example/academy/springboot/web/dto/PostsResponseDto.java
  com.example.academy.springboot.web.dto.PostsResponseDto
-com/example/academy/springboot/web/dto/IndexController.java
- com.example.academy.springboot.web.dto.IndexController
+com/example/academy/springboot/web/dto/PostsSaveRequestDto.java
+ com.example.academy.springboot.web.dto.PostsSaveRequestDto
+ com.example.academy.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
